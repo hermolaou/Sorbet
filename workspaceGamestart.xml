@@ -1,0 +1,11 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="workspaceBlocks" style="display: none">
+  <variables>
+    <variable id="/_{k%BU?Q;F`NBDC/mLu">speed</variable>
+  </variables>
+  <block type="variables_set" id="zkCFTz%mKS@wo.y}8O.E" x="-13" y="-413">
+    <field name="VAR" id="/_{k%BU?Q;F`NBDC/mLu">speed</field>
+  </block>
+  <block type="math_number" id="$UIzfmpe?FEJhWDva(.I" x="-38" y="-363">
+    <field name="NUM">0</field>
+  </block>
+</xml>

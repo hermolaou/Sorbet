@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="workspaceBlocks" style="display: none">
+  <variables>
+    <variable id="QD.muW]YoGM9*8$BZOhE">score</variable>
+    <variable id="%Fq^oAQee50_H~DFqF6n">speed</variable>
+  </variables>
+  <block type="logic_compare" id="-*-XzV:%8Q4jG+5:*$h=" x="37" y="12">
+    <field name="OP">EQ</field>
+  </block>
+  <block type="controls_if" id="P}E7n9+$S)|}]YhV*}9u" x="38" y="63"></block>
+  <block type="variables_get" id="Iq2SkVS,}^$yXFNagS4#" x="137" y="112">
+    <field name="VAR" id="QD.muW]YoGM9*8$BZOhE">score</field>
+  </block>
+  <block type="math_number" id="|E(Ga@`A/bV8ub%IYbP(" x="63" y="138">
+    <field name="NUM">0</field>
+  </block>
+  <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c" x="38" y="187">
+    <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
+  </block>
+</xml>
