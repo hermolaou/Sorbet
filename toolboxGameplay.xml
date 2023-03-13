@@ -4,9 +4,18 @@
     <block type="math_number">
       <field name="NUM">0</field>
     </block>
-    <block type="math_number">
-      <field name="NUM">0</field>
+    <block type="logic_compare">
+      <field name="OP">EQ</field>
     </block>
+    <block type="logic_operation">
+      <field name="OP">AND</field>
+    </block>
+    <block type="logic_boolean">
+      <field name="BOOL">TRUE</field>
+    </block>
+    <block type="logic_negate"></block>
+    <block type="logic_null"></block>
+    <block type="logic_ternary"></block>
   </category>
   <category name="Variables" colour="#a55b80" custom="VARIABLE"></category>
 </xml>
