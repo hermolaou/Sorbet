@@ -1,19 +1,36 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="workspaceBlocks" style="display: none">
   <variables>
+    <variable id="hBaMbB[ldZ_[;@I`I;9(">density</variable>
     <variable id="QD.muW]YoGM9*8$BZOhE">score</variable>
     <variable id="%Fq^oAQee50_H~DFqF6n">speed</variable>
   </variables>
-  <block type="logic_compare" id="-*-XzV:%8Q4jG+5:*$h=" x="37" y="12">
+  <block type="logic_compare" id="-*-XzV:%8Q4jG+5:*$h=" x="113" y="13">
     <field name="OP">EQ</field>
   </block>
   <block type="controls_if" id="P}E7n9+$S)|}]YhV*}9u" x="38" y="63"></block>
-  <block type="variables_get" id="Iq2SkVS,}^$yXFNagS4#" x="137" y="112">
-    <field name="VAR" id="QD.muW]YoGM9*8$BZOhE">score</field>
+  <block type="variables_set" id="1PT~E8;FYGZMv#mu@zL]" x="138" y="113">
+    <field name="VAR" id="hBaMbB[ldZ_[;@I`I;9(">density</field>
+    <next>
+      <block type="variables_set" id="}vRF?`mJA_t?K!vCy,g8">
+        <field name="VAR" id="QD.muW]YoGM9*8$BZOhE">score</field>
+        <next>
+          <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c">
+            <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
-  <block type="math_number" id="|E(Ga@`A/bV8ub%IYbP(" x="63" y="138">
+  <block type="math_number" id="|E(Ga@`A/bV8ub%IYbP(" x="37" y="163">
     <field name="NUM">0</field>
   </block>
-  <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c" x="38" y="187">
+  <block type="variables_get" id="}ZXKF.qP7o!voP4!0-vI" x="38" y="212">
+    <field name="VAR" id="hBaMbB[ldZ_[;@I`I;9(">density</field>
+  </block>
+  <block type="variables_get" id="DBSXDDMIk~A0NU.ef4CS" x="38" y="237">
+    <field name="VAR" id="QD.muW]YoGM9*8$BZOhE">score</field>
+  </block>
+  <block type="variables_get" id="uyTB$Lc/yhKI:z#mNEXe" x="37" y="263">
     <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
   </block>
 </xml>
