@@ -10,12 +10,12 @@
   <block type="controls_if" id="P}E7n9+$S)|}]YhV*}9u" x="38" y="63"></block>
   <block type="variables_set" id="1PT~E8;FYGZMv#mu@zL]" x="138" y="113">
     <field name="VAR" id="hBaMbB[ldZ_[;@I`I;9(">density</field>
-     </block>
-        
-          <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c">
-            <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
-          </block>
-  
+    <next>
+      <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c">
+        <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
+      </block>
+    </next>
+  </block>
   <block type="math_number" id="|E(Ga@`A/bV8ub%IYbP(" x="37" y="163">
     <field name="NUM">0</field>
   </block>
