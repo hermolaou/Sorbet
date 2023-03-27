@@ -1,31 +1,17 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="workspaceBlocks" style="display: none">
   <variables>
-    <variable id="hBaMbB[ldZ_[;@I`I;9(">density</variable>
-    <variable id="QD.muW]YoGM9*8$BZOhE">score</variable>
-    <variable id="%Fq^oAQee50_H~DFqF6n">speed</variable>
+    <variable id="B%L.nBV-Ps7I?@!R09Ek">speed</variable>
+    <variable id="9OK.?r3mON2J;7%kPeKZ">density</variable>
+    <variable id="L1?T4E?`Q4*bDSaC9NLc">score</variable>
   </variables>
-  <block type="logic_compare" id="-*-XzV:%8Q4jG+5:*$h=" x="113" y="13">
-    <field name="OP">EQ</field>
+  <block type="controls_if" id="P}E7n9+$S)|}]YhV*}9u" x="12" y="37"></block>
+  <block type="variables_get" id="tE87a6Mtmz:jMW!?t)hI" x="13" y="137">
+    <field name="VAR" id="B%L.nBV-Ps7I?@!R09Ek">speed</field>
   </block>
-  <block type="controls_if" id="P}E7n9+$S)|}]YhV*}9u" x="38" y="63"></block>
-  <block type="variables_set" id="1PT~E8;FYGZMv#mu@zL]" x="138" y="113">
-    <field name="VAR" id="hBaMbB[ldZ_[;@I`I;9(">density</field>
-    <next>
-      <block type="variables_set" id="_pfyYL7HzPpc~Y1D?L-c">
-        <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
-      </block>
-    </next>
+  <block type="variables_get" id="{11}.cKM9AA}#wPU^,)T" x="13" y="187">
+    <field name="VAR" id="9OK.?r3mON2J;7%kPeKZ">density</field>
   </block>
-  <block type="math_number" id="|E(Ga@`A/bV8ub%IYbP(" x="37" y="163">
-    <field name="NUM">0</field>
-  </block>
-  <block type="variables_get" id="}ZXKF.qP7o!voP4!0-vI" x="38" y="212">
-    <field name="VAR" id="hBaMbB[ldZ_[;@I`I;9(">density</field>
-  </block>
-  <block type="variables_get" id="DBSXDDMIk~A0NU.ef4CS" x="38" y="237">
-    <field name="VAR" id="QD.muW]YoGM9*8$BZOhE">score</field>
-  </block>
-  <block type="variables_get" id="uyTB$Lc/yhKI:z#mNEXe" x="37" y="263">
-    <field name="VAR" id="%Fq^oAQee50_H~DFqF6n">speed</field>
+  <block type="variables_get" id="tHTQmyFry|u#l!LvY=l0" x="12" y="237">
+    <field name="VAR" id="L1?T4E?`Q4*bDSaC9NLc">score</field>
   </block>
 </xml>
